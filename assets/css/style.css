@@ -1035,4 +1035,8 @@ section {
 
 .great-vibes {
   font-family: 'Great Vibes', cursive;
+  color: #c185b1;
+}
+.banner .great-vibes {
+  color: #c185b1;
 }
