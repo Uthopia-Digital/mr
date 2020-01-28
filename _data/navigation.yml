@@ -1,12 +1,12 @@
 - name: Home
   link: /
 - name: Quem Sou
-  link: /#quem-sou
+  link: /quem-sou
 - name: O que faço
-  link: /#o-que-faco
+  link: /o-que-faco
 - name: Como faço
-  link: /#como-faco
+  link: /como-faco
 - name: O que dizem
-  link: /#o-que-dizem
+  link: /o-que-dizem
 - name: Contato
-  link: /#contato
+  link: /contato
