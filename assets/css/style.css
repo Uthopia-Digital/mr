@@ -28,6 +28,7 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 27px;
+  text-align: justify;
 }
 
 a {
@@ -168,8 +169,8 @@ section {
 
 .sec-heading .sec-title {
   color: #1e2528;
-  font-size: 42px;
-  margin-bottom: 32px;
+  font-size: 4em;
+  margin-bottom: 18px;
 }
 
 @media screen and (max-width: 767px) {
@@ -577,7 +578,7 @@ section {
 }
 
 .appointment-form {
-  background-color: #fff9f8;
+  /* background-color: #fff9f8; */
 }
 
 .appointment-form .form-field {
