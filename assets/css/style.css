@@ -1042,14 +1042,14 @@ section {
   font-size: 2.5em;
 }
 
-.q-faco #quem-sou img:nth-child(even) {
+.q-faco img:nth-child(even) {
   float: left;
 }
-.q-faco #quem-sou img:nth-child(odd) {
+.q-faco img:nth-child(odd) {
   float: right;
 }
 
-.q-faco #quem-sou img {
+.q-faco img {
     max-width: 46%;
     margin: 10px;
 }
