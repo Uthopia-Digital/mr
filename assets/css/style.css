@@ -23,7 +23,7 @@
 
 body {
   color: #6c6c6f;
-  background-color: #fff;
+  background-color: #fff !important;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -266,11 +266,12 @@ section {
 @media screen and (max-width: 767px) {
   .banner {
     padding-top: 130px;
+    background: transparent;
   }
 }
 
 .banner span {
-  color: #c185b1;
+  /* color: #c185b1; */
   display: block;
   font-family: "Rufina", serif;
   letter-spacing: 1.5px;
@@ -1038,7 +1039,7 @@ section {
   color: #c185b1;
 }
 .banner .great-vibes {
-  color: #c185b1;
+  /* color: #c185b1; */
   font-size: 2.5em;
   line-height: initial;
 }
