@@ -20,6 +20,7 @@
 
     $('.test-caro').owlCarousel({
         autoplay:true,
+        autoplayTimeout:5000,
         dots: true,
         loop:true,
         nav:false,
