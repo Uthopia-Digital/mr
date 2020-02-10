@@ -1055,3 +1055,8 @@ section {
     max-width: 46%;
     margin: 10px;
 }
+
+.appointment img {
+  width: 32px;
+  float: left;
+}
