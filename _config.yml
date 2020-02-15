@@ -40,9 +40,9 @@ exclude:
   - README.md
   - LICENCE
 
-collections:
-    works:
-      output: true
+# collections:
+#     posts:
+#       output: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
@@ -56,12 +56,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - 
-    scope:
-      path: ""
-      type: "works"
-    values:
-      layout: "work"
   -
     scope:
       type: "posts"
