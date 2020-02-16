@@ -1,7 +1,7 @@
 ---
-title: CASAMENTO PAULA E LUCIANO
+title: Casamento Paula & Luciano
 date: '2020-02-15 09:59pm'
-miniature: /images/AirBrush_20200206144803 (002).jpg
+miniature: /images/AirBrush_20200206144803.jpg
 ---
 Um evento inesquecível! Foi assim o casamento da Paula e do Luciano, devidamente registrado pela Agatha Foto e Filme.
 

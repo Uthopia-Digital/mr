@@ -40,15 +40,8 @@ exclude:
   - README.md
   - LICENCE
 
-collections:
-    works:
-      output: true
-
 paginate: 10
 paginate_path: "/blog/:num/"
-
-jekyll-archives:
-  enabled: ['categories']
 
 defaults:
   -
@@ -56,12 +49,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - 
-    scope:
-      path: ""
-      type: "works"
-    values:
-      layout: "work"
   -
     scope:
       type: "posts"

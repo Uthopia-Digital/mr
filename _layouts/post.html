@@ -1,18 +1,20 @@
 ---
 layout: default
 ---
-<section>
+<section class="blog-page">
   
 	<div class="container">
 	  <div class="row">
 		<div class="col-lg-10 col-md-12 m-auto">
-		  <div class="sec-heading">
-			<img src="assets/images/butterfly.png" alt="">
-			<span class="tagline">{% for category in include.post.categories %}		
-				{{ include.post.date | date: "%d/%b/%y" }} | <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>		
-			{% endfor %}</span>
-			<h2 class="sec-title">{{ page.title }}</h2>
-			{{ content }}
+			<div class="sec-heading">
+				<img src="{{ page.miniature }}" alt="{{ page.title }}">
+				<span class="tagline">{% for category in include.post.categories %}		
+					{{ include.post.date | date: "%d/%b/%y" }} | <a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>		
+				{% endfor %}</span>
+				<h2 class="sec-title">{{ page.title }}</h2>
+			</div>
+			<div class="sec-content">
+				{{ content }}
 
 			<br><br>
 
@@ -36,8 +38,9 @@ layout: default
 				</script>
 				<noscript>Por favor habilite o javascript para comentar <a href="https://disqus.com/?ref_noscript" rel="nofollow"></a></noscript>
 			{% endif %}
-		  </div>
+
+			</div>
 		</div>
-	  </div>
-	</div>      
-  </section>
+	</div>
+</div>      
+</section>

@@ -194,6 +194,7 @@ section {
   left: 0;
   width: 100%;
   z-index: 1;
+  background-color: rgba(255,255,255,0.5);
 }
 
 .logo {
@@ -449,7 +450,7 @@ section {
 }
 
 .post h4, .post h4 a {
-  color: #263a41;
+  color: #c185b1 !important;
   font-size: 22px;
 }
 
@@ -458,7 +459,7 @@ section {
 }
 
 .post .btn {
-  background-color: #30383b;
+  /* background-color: #30383b; */
   margin-bottom: 30px;
   padding: 15px;
 }
@@ -468,10 +469,10 @@ section {
   box-shadow: 0 5px 20px #f0f0f0;
 }
 
-.post:hover .btn {
+/* .post:hover .btn {
   background-color: #c185b1;
   color: #fff;
-}
+} */
 
 .testimonial .single-tst {
   position: relative;
@@ -1056,3 +1057,15 @@ section {
     margin: 10px;
 }
 
+.blog-page {
+  margin-top: 80px;
+}
+.blog-page .sec-heading img {
+  max-width: 100%;
+}
+
+.sec-content img {
+  max-width: 50%;
+  float: left;
+  padding: 5px;
+}
