@@ -1,5 +1,5 @@
 ---
-title: ARIANE E EVERTON
+title: Ariane e Everton
 date: '2020-02-18 11:59am'
 miniature: /images/GIS_6857.jpg
 ---
